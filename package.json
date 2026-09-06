@@ -1,0 +1,56 @@
+{
+  "name": "relay-accounts",
+  "version": "0.2.3",
+  "description": "Automatic switching between multiple Claude Code and Codex accounts, with usage monitoring and provider handoffs",
+  "type": "module",
+  "bin": {
+    "relay": "./bin/relay.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node bin/relay.mjs",
+    "check": "node scripts/check.mjs",
+    "test:native": "node scripts/smoke-native.mjs",
+    "test:discovery": "node scripts/smoke-discovery.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "0.3.261",
+    "node-pty": "1.1.0",
+    "ws": "8.21.3"
+  },
+  "license": "MIT",
+  "files": [
+    "bin",
+    "src",
+    "docs",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md"
+  ],
+  "author": {
+    "name": "Damir Miljic",
+    "url": "https://linkedin.com/in/damirmiljic"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Damir-Miljic/relay.git"
+  },
+  "homepage": "https://github.com/Damir-Miljic/relay#readme",
+  "bugs": {
+    "url": "https://github.com/Damir-Miljic/relay/issues"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "account-switcher",
+    "multi-account",
+    "usage-monitor",
+    "terminal",
+    "developer-tools",
+    "windows",
+    "macos"
+  ]
+}

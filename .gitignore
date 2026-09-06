@@ -1,0 +1,20 @@
+node_modules/
+.reference/
+.test-data/
+*.tgz
+*.log
+.DS_Store
+artifacts/
+relay-source-*.zip
+
+# Local configuration, credentials, and runtime data
+.env
+.env.*
+!.env.example
+.relay/
+.claude/
+.codex/
+auth.json
+.credentials.json
+*.pem
+*.key

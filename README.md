@@ -126,13 +126,9 @@ Relay is an early release. Native client updates can affect integration; [troubl
 - [How the integration works](docs/architecture.md)
 - [Contribute or report a bug](CONTRIBUTING.md)
 
-## Made by Damir Miljic
-
-Relay is shared for free under the [MIT license](LICENSE), by **[Damir Miljic](https://linkedin.com/in/damirmiljic)**.
+## Sharing
 
 If you share Relay on LinkedIn or other social media, **please mention Damir Miljic and link to this repository**. On LinkedIn, you can tag me through [my profile](https://linkedin.com/in/damirmiljic). It helps people find the project and gives credit for the work.
-
-A simple credit: **Relay by [Damir Miljic](https://linkedin.com/in/damirmiljic) — [GitHub](https://github.com/Damir-Miljic/relay).**
 
 Social credit is appreciated, not an additional condition of the MIT license.
 
